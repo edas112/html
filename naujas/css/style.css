@@ -1,0 +1,26 @@
+.pirma {
+  width: 300px;
+  border-style: dotted;
+  background-color: blue;
+  padding: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
+.antra {
+  width: 300px;
+  padding: 50px;
+  border-style: groove;
+  background-color: brown;
+  margin: 30px auto;
+  text-align: center;
+}
+.trecia {
+  width: 400px;
+  border-style: double;
+  background-color: darkorange;
+  margin: 40px auto;
+  padding: 25px;
+}
+body {
+  background-color: green;
+}

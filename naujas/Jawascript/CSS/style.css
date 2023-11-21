@@ -1,0 +1,21 @@
+body {
+  background-color: darkseagreen;
+}
+header {
+  background-color: rgb(188, 133, 133);
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
+a {
+  font-size: 25px;
+  margin: 20px;
+  padding: 20xp;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: rgb(153, 255, 0);
+  background-color: cyan;
+}

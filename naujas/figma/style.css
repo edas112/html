@@ -17,6 +17,7 @@ body {
   overflow: hidden;
   position: relative;
   align-items: flex-start;
+  width: 276px;
 }
 
 .data {

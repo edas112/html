@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #131417;
+}
+.vidinis {
+  padding: 4rem;
+  position: relative;
+
+  align-items: center;
+  border-radius: 12px;
+  background: rgba(34, 34, 37, 0.7);
+
+  width: 652px;
+  height: 436px;
+  margin: 5rem auto;
+}
+.trys {
+  width: 195px;
+  height: 195px;
+  transform: rotate(0.788deg);
+  flex-shrink: 0;
+  position: absolute;
+  right: 32rem;
+  top: -5rem;
+}
+.vienas {
+  position: absolute;
+  top: 23rem;
+  right: -2rem;
+}
+.du {
+  position: absolute;
+  top: 21rem;
+  left: 39rem;
+}
+.keturi {
+  position: absolute;
+  top: 18rem;
+  right: -2rem;
+}
+.pirmas {
+  width: 531px;
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 48px */
+  letter-spacing: 0.42px;
+  margin-bottom: 2.5rem;
+}
+.antras {
+  width: 525px;
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 173.333% */
+  margin-bottom: 2.5rem;
+}
+a {
+  border-radius: 12px;
+  border: 2px solid #f17965;
+  color: #f17965;
+
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 173.333% */
+  letter-spacing: -0.75px;
+  padding: 8px;
+}
+.zemiau {
+  margin-top: 2rem;
+}

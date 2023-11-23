@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+.bendri {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding: calc((100vh - 140px) / 2) 0;
+}
+.pirma {
+  background: #fff;
+}
+.antra {
+  background: #51cb65;
+}
+.trecia {
+  background: #816ef5;
+}
+.ketvirta {
+  background: #ea7b7b;
+}
+.penkta {
+  background: #d9d9d9;
+  color: #e41111;
+}
+h1 {
+  font-family: Inter;
+  font-size: 128px;
+}
+
+a {
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  border: 2px solid #f17965;
+  color: #f17965;
+  text-decoration: none;
+  background: white;
+  transition: all 0.3s;
+}
+a:hover {
+  background-color: #f17965;
+  color: white;
+}
+.linkai {
+  position: fixed;
+  bottom: 5rem;
+  padding: 0 calc((100vw - 544px) / 2);
+}
+button {
+  border-radius: 100%;
+  border: 3px solid #959393;
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+}
+html {
+  scroll-behavior: smooth;
+}

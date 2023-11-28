@@ -34,11 +34,13 @@ body {
   position: absolute;
   top: 21rem;
   left: 39rem;
+  z-index: 3;
 }
 .keturi {
   position: absolute;
   top: 18rem;
   right: -2rem;
+  z-index: 4;
 }
 .pirmas {
   width: 531px;

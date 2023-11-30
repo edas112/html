@@ -18,10 +18,36 @@ nav {
 .logo {
   width: 79px;
   height: 79px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
 }
-.logo:hover {
+/* .logo:hover {
   width: 120px;
   height: 100px;
+} */
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }
 
 .divLink {

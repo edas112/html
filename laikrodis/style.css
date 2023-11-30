@@ -1,0 +1,96 @@
+body {
+  box-sizing: border-box;
+  width: 500px;
+  height: 500px;
+}
+.watch {
+  position: relative;
+  background: darkcyan;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  /* display flex */
+}
+h1 {
+  font-size: 50px;
+  background: darkblue;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  color: aqua;
+  text-align: center;
+}
+.dvylika {
+  display: flex;
+  justify-content: center;
+}
+.sesi {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 500px;
+  height: 220px;
+}
+.trys {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 220px;
+}
+.rodykle {
+  position: absolute;
+  border-radius: 100%;
+  top: 240px;
+  left: 240px;
+  width: 20px;
+  height: 20px;
+
+  background: rgb(242, 2, 2);
+  animation: rodykle 60s linear infinite;
+}
+@keyframes rodykle {
+  from {
+    transform: rotate(0deg) translateX(170px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(170px) rotate(-360deg);
+  }
+}
+.rodykleM {
+  position: absolute;
+  border-radius: 100%;
+  top: 240px;
+  left: 240px;
+  width: 30px;
+  height: 30px;
+
+  background: rgb(55, 245, 3);
+  animation: rodykle 3600s linear infinite;
+}
+@keyframes rodykleM {
+  from {
+    transform: rotate(0deg) translateX(170px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(170px) rotate(-360deg);
+  }
+}
+.rodykleV {
+  position: absolute;
+  border-radius: 100%;
+  top: 240px;
+  left: 240px;
+  width: 60px;
+  height: 60px;
+
+  background: rgb(245, 221, 3);
+  animation: rodykleV 216000s linear infinite;
+}
+@keyframes rodykleV {
+  from {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}

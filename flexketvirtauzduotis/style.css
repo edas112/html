@@ -1,0 +1,510 @@
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+body {
+  width: auto;
+  height: auto;
+}
+/* PIRMA DALIS NAVIGACIJA */
+nav {
+  background: #ffffff;
+
+  height: 120px;
+  padding: 0 72px;
+  /* display flex */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 600px) {
+  nav {
+    height: 50px;
+  }
+}
+.navtext {
+  color: #222;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.burger {
+  position: relative;
+}
+.burger:hover .meniu {
+  display: block;
+  color: #222;
+}
+.meniu {
+  padding: 10px;
+  color: #222;
+  border: 1px solid black;
+  border-radius: 3px;
+  background: white;
+  position: absolute;
+  display: none;
+}
+.meniuText {
+  color: #222;
+  text-decoration-line: none;
+}
+.burger svg {
+  display: none;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 900px) {
+  .burger svg {
+    display: flex;
+    bottom: 2rem;
+    color: #222;
+  }
+}
+.link {
+  /* display flex */
+  display: flex;
+  gap: 63px;
+}
+/* puslapio mazinimo pakitimai */
+
+@media screen and (max-width: 900px) {
+  .link {
+    display: none;
+  }
+}
+
+.navLink {
+  text-decoration: none;
+  color: #222;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 1200px) {
+  .navLink {
+    font-size: 10px;
+  }
+}
+/* ANTRA DALIS PIRMAS PAVEIKSLAS */
+.conteiner {
+  padding-bottom: 20rem;
+  padding-top: 5rem;
+  height: auto;
+  background-image: url(./img/49d7bbb36792b9a824e3ed67078b2188.jpg);
+  /* display flex */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 43px;
+}
+.conteinerText {
+  color: #fff;
+
+  font-family: Raleway;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 600px) {
+  .conteinerText {
+    font-size: 40px;
+  }
+}
+.conteinerH2 {
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 600px) {
+  .conteinerH2 {
+    font-size: 20px;
+  }
+}
+button {
+  background: #eb5757;
+  width: 232px;
+  height: 52px;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 600px) {
+  button {
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
+.conteinerButton {
+  /* display flex */
+  display: flex;
+  gap: 21px;
+}
+.secondButton {
+  background: #fff;
+  width: 232px;
+  height: 52px;
+  color: #eb5757;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 600px) {
+  .secondButton {
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
+footer {
+  height: 132px;
+  background: #eb5757;
+  /* display flex */
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1rem 6rem;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 12px;
+  }
+}
+/* TRECIA DALIS ATLIKEJAI */
+.secondConteiner {
+  height: auto;
+  background: #f8f8f8;
+  /* display flex */
+}
+
+.secondText {
+  text-align: center;
+  padding-top: 3rem;
+  /* display flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.secondH1 {
+  color: #222;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.line {
+  background: #eb5757;
+  width: 31px;
+  height: 5px;
+}
+.secondH2 {
+  color: #222;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.secondImg {
+  width: 238px;
+  height: 238px;
+  border-radius: 100%;
+}
+.h1Foto {
+  color: #222;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.h2Text {
+  color: #222;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.foto {
+  /* display flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 1rem;
+}
+.flexFoto {
+  padding: 2rem 10rem;
+  /* display flex */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+/* KETVIRTA DALIS */
+
+.threeConteiner {
+  padding: 3rem 5rem;
+  height: auto;
+  background: rgba(235, 87, 87, 0.1);
+}
+.threeH1 {
+  color: #222;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.threeH3 {
+  color: #222;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.imgGrid {
+  padding: 2rem;
+  /* display flex */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.threeImg {
+  width: 248px;
+  height: 248px;
+}
+.fourConteiner {
+  height: auto;
+  background: #f8f8f8;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  /* display Flex */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.fourH1 {
+  color: #222;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.fourH3 {
+  color: #222;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card {
+  /* Display Flex */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.fourCard {
+  padding: 3rem;
+  width: 447px;
+  height: 375px;
+  background: #ffffff;
+  /* Display Flex */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.cardH1 {
+  color: #222;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.cardH3 {
+  color: #222;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cardH4 {
+  color: #222;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.cardH5 {
+  color: #eb5757;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.row {
+  /* Display Flex */
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+/* PENKTA DALIS */
+.fiveConteiner {
+  height: auto;
+  background: rgba(235, 87, 87, 0.1);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* Display Flex */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.fiveH1 {
+  color: #222;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.fiveH3 {
+  color: #222;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fiveImg {
+  width: 1175px;
+  height: 443px;
+}
+@media screen and (max-width: 1200px) {
+  .fiveImg {
+    width: 800px;
+    height: 330px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .fiveImg {
+    width: 400px;
+    height: 135px;
+  }
+}
+.footerEnd {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background: #fff;
+  /* Display flex */
+  display: flex;
+  justify-content: space-between;
+}
+.endLink {
+  /* Display Flex */
+  display: flex;
+  gap: 2rem;
+}
+@media screen and (max-width: 900px) {
+  .endLink {
+    display: none;
+  }
+}
+.textStyle {
+  color: #222;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration-line: none;
+}

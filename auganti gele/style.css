@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: coral;
+}
+div {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: blue;
+  border: 25px solid red;
+  border-top: 30px solid black;
+}
+div:hover {
+  border-top: ;
+}

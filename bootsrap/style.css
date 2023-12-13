@@ -121,8 +121,8 @@ body {
   display: grid;
 }
 
-.three-container line {
-  border: #d8d8d8 solit 1px;
+.three-container .line {
+  border: #d8d8d8 solid 1px;
   width: 343px;
 }
 .three-container h1 {

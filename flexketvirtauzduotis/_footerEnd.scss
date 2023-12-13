@@ -1,0 +1,28 @@
+.footerEnd {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background: #fff;
+  /* Display flex */
+  display: flex;
+  justify-content: space-between;
+}
+.endLink {
+  /* Display Flex */
+  display: flex;
+  gap: 2rem;
+}
+@media screen and (max-width: 900px) {
+  .endLink {
+    display: none;
+  }
+}
+.textStyle {
+  color: #222;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration-line: none;
+}

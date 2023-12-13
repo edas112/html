@@ -1,0 +1,29 @@
+//   TRECIA DALIS
+
+.second-container {
+  position: relative;
+  background: #f1f8ff;
+  h1 {
+    color: #404445;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+  }
+  h3 {
+    color: #5f6b81;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+  }
+
+  img {
+    width: 343px;
+    height: 217px;
+  }
+  svg {
+    position: absolute;
+    top: 25rem;
+  }
+}

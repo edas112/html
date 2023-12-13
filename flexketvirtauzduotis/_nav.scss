@@ -1,0 +1,88 @@
+/* PIRMA DALIS NAVIGACIJA */
+nav {
+  background: #ffffff;
+
+  height: 120px;
+  padding: 0 72px;
+  /* display flex */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 600px) {
+  nav {
+    height: 50px;
+  }
+}
+.nav__text {
+  color: #222;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nav__burger {
+  position: relative;
+}
+.nav__burger:hover .meniu {
+  display: block;
+  color: #222;
+}
+.burger__meniu {
+  padding: 10px;
+  color: #222;
+  border: 1px solid black;
+  border-radius: 3px;
+  background: white;
+  position: absolute;
+  display: none;
+}
+.meniu__text {
+  color: #222;
+  text-decoration-line: none;
+}
+.nav__burger svg {
+  display: none;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 900px) {
+  .nav__burger svg {
+    display: flex;
+    bottom: 2rem;
+    color: #222;
+  }
+}
+.nav__link {
+  /* display flex */
+  display: flex;
+  gap: 63px;
+}
+/* puslapio mazinimo pakitimai */
+
+@media screen and (max-width: 900px) {
+  .nav__link {
+    display: none;
+  }
+}
+
+.nav__link__text {
+  text-decoration: none;
+  color: #222;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+}
+/* puslapio mazinimo pakitimai */
+@media screen and (max-width: 1200px) {
+  .nav__link__text {
+    font-size: 10px;
+  }
+}

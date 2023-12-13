@@ -1,15 +1,6 @@
-* {
-  box-sizing: border-box;
-  font-family: Montserrat;
-}
-body {
-  width: auto;
-  height: auto;
-}
 /* PIRMA DALIS NAVIGACIJA */
 nav {
   background: #ffffff;
-
   height: 120px;
   padding: 0 72px;
   /* display flex */
@@ -17,13 +8,14 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 /* puslapio mazinimo pakitimai */
 @media screen and (max-width: 600px) {
   nav {
     height: 50px;
   }
 }
-.navtext {
+.nav__text {
   color: #222;
   font-family: Raleway;
   font-size: 22px;
@@ -31,14 +23,17 @@ nav {
   font-weight: 700;
   line-height: normal;
 }
-.burger {
+
+.nav__burger {
   position: relative;
 }
-.burger:hover .meniu {
+
+.nav__burger:hover .meniu {
   display: block;
   color: #222;
 }
-.meniu {
+
+.burger__meniu {
   padding: 10px;
   color: #222;
   border: 1px solid black;
@@ -47,35 +42,37 @@ nav {
   position: absolute;
   display: none;
 }
-.meniuText {
+
+.meniu__text {
   color: #222;
   text-decoration-line: none;
 }
-.burger svg {
+
+.nav__burger svg {
   display: none;
 }
+
 /* puslapio mazinimo pakitimai */
 @media screen and (max-width: 900px) {
-  .burger svg {
+  .nav__burger svg {
     display: flex;
     bottom: 2rem;
     color: #222;
   }
 }
-.link {
+.nav__link {
   /* display flex */
   display: flex;
   gap: 63px;
 }
-/* puslapio mazinimo pakitimai */
 
+/* puslapio mazinimo pakitimai */
 @media screen and (max-width: 900px) {
-  .link {
+  .nav__link {
     display: none;
   }
 }
-
-.navLink {
+.nav__link__text {
   text-decoration: none;
   color: #222;
   font-family: Open Sans;
@@ -85,12 +82,12 @@ nav {
   line-height: normal;
   letter-spacing: 1px;
   text-transform: uppercase;
-
   letter-spacing: 1px;
 }
+
 /* puslapio mazinimo pakitimai */
 @media screen and (max-width: 1200px) {
-  .navLink {
+  .nav__link__text {
     font-size: 10px;
   }
 }
@@ -106,10 +103,11 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 43px;
+  /* puslapio mazinimo pakitimai */
+  /* puslapio mazinimo pakitimai */
 }
-.conteinerText {
+.conteiner__h1 {
   color: #fff;
-
   font-family: Raleway;
   font-size: 80px;
   font-style: normal;
@@ -118,13 +116,12 @@ nav {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-/* puslapio mazinimo pakitimai */
 @media screen and (max-width: 600px) {
-  .conteinerText {
+  .conteiner h1 {
     font-size: 40px;
   }
 }
-.conteinerH2 {
+.conteiner__h2 {
   color: #fff;
   text-align: center;
   font-family: Open Sans;
@@ -133,13 +130,19 @@ nav {
   font-weight: 400;
   line-height: normal;
 }
-/* puslapio mazinimo pakitimai */
 @media screen and (max-width: 600px) {
-  .conteinerH2 {
+  .conteiner h2 {
     font-size: 20px;
   }
 }
-button {
+
+.conteiner__button {
+  /* display flex */
+  display: flex;
+  gap: 21px;
+  /* puslapio mazinimo pakitimai */
+}
+.conteiner__button .button__first {
   background: #eb5757;
   width: 232px;
   height: 52px;
@@ -152,19 +155,14 @@ button {
   line-height: normal;
   letter-spacing: 1px;
 }
-/* puslapio mazinimo pakitimai */
 @media screen and (max-width: 600px) {
-  button {
+  .conteiner__button .button__firt {
     width: 150px;
     height: 40px;
     font-size: 12px;
   }
 }
-.conteinerButton {
-  /* display flex */
-  display: flex;
-  gap: 21px;
-}
+
 .secondButton {
   background: #fff;
   width: 232px;
@@ -178,6 +176,7 @@ button {
   line-height: normal;
   letter-spacing: 1px;
 }
+
 /* puslapio mazinimo pakitimai */
 @media screen and (max-width: 600px) {
   .secondButton {
@@ -191,11 +190,11 @@ footer {
   background: #eb5757;
   /* display flex */
   display: flex;
-
   justify-content: center;
   align-items: center;
+  /* puslapio mazinimo pakitimai */
 }
-p {
+footer p {
   color: #fff;
   text-align: center;
   font-family: Open Sans;
@@ -205,12 +204,12 @@ p {
   line-height: normal;
   padding: 1rem 6rem;
 }
-/* puslapio mazinimo pakitimai */
 @media screen and (max-width: 600px) {
-  p {
+  footer p {
     font-size: 12px;
   }
 }
+
 /* TRECIA DALIS ATLIKEJAI */
 .secondConteiner {
   height: auto;
@@ -229,6 +228,7 @@ p {
   flex-wrap: wrap;
   gap: 2rem;
 }
+
 .secondH1 {
   color: #222;
   text-align: center;
@@ -240,11 +240,13 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
 .line {
   background: #eb5757;
   width: 31px;
   height: 5px;
 }
+
 .secondH2 {
   color: #222;
   text-align: center;
@@ -254,11 +256,13 @@ p {
   font-weight: 400;
   line-height: normal;
 }
+
 .secondImg {
   width: 238px;
   height: 238px;
   border-radius: 100%;
 }
+
 .h1Foto {
   color: #222;
   text-align: center;
@@ -270,6 +274,7 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
 .h2Text {
   color: #222;
   text-align: center;
@@ -279,6 +284,7 @@ p {
   font-weight: 400;
   line-height: normal;
 }
+
 .foto {
   /* display flex */
   display: flex;
@@ -286,6 +292,7 @@ p {
   justify-content: end;
   gap: 1rem;
 }
+
 .flexFoto {
   padding: 2rem 10rem;
   /* display flex */
@@ -294,13 +301,14 @@ p {
   flex-wrap: wrap;
   gap: 1.5rem;
 }
-/* KETVIRTA DALIS */
 
+/* KETVIRTA DALIS */
 .threeConteiner {
   padding: 3rem 5rem;
   height: auto;
   background: rgba(235, 87, 87, 0.1);
 }
+
 .threeH1 {
   color: #222;
   text-align: center;
@@ -312,6 +320,7 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
 .threeH3 {
   color: #222;
   text-align: center;
@@ -321,6 +330,7 @@ p {
   font-weight: 400;
   line-height: normal;
 }
+
 .imgGrid {
   padding: 2rem;
   /* display flex */
@@ -329,10 +339,12 @@ p {
   flex-wrap: wrap;
   gap: 1rem;
 }
+
 .threeImg {
   width: 248px;
   height: 248px;
 }
+
 .fourConteiner {
   height: auto;
   background: #f8f8f8;
@@ -345,6 +357,7 @@ p {
   align-items: center;
   gap: 1rem;
 }
+
 .fourH1 {
   color: #222;
   text-align: center;
@@ -356,6 +369,7 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
 .fourH3 {
   color: #222;
   text-align: center;
@@ -365,6 +379,7 @@ p {
   font-weight: 400;
   line-height: normal;
 }
+
 .card {
   /* Display Flex */
   display: flex;
@@ -372,6 +387,7 @@ p {
   justify-content: center;
   gap: 1rem;
 }
+
 .fourCard {
   padding: 3rem;
   width: 447px;
@@ -383,6 +399,7 @@ p {
   gap: 2rem;
   align-items: center;
 }
+
 .cardH1 {
   color: #222;
   text-align: center;
@@ -394,6 +411,7 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
 .cardH3 {
   color: #222;
   text-align: center;
@@ -403,6 +421,7 @@ p {
   font-weight: 400;
   line-height: normal;
 }
+
 .cardH4 {
   color: #222;
   text-align: center;
@@ -413,6 +432,7 @@ p {
   line-height: normal;
   letter-spacing: 2px;
 }
+
 .cardH5 {
   color: #eb5757;
   text-align: center;
@@ -424,6 +444,7 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
 .row {
   /* Display Flex */
   display: flex;
@@ -432,8 +453,9 @@ p {
   justify-content: center;
   align-items: center;
 }
-/* PENKTA DALIS */
-.fiveConteiner {
+
+/* FIVECONTEINER */
+.fiveconteiner {
   height: auto;
   background: rgba(235, 87, 87, 0.1);
   padding-top: 3rem;
@@ -444,7 +466,7 @@ p {
   align-items: center;
   gap: 2rem;
 }
-.fiveH1 {
+.fiveconteiner h1 {
   color: #222;
   text-align: center;
   font-family: Raleway;
@@ -455,7 +477,7 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.fiveH3 {
+.fiveconteiner h3 {
   color: #222;
   text-align: center;
   font-family: Open Sans;
@@ -464,47 +486,29 @@ p {
   font-weight: 400;
   line-height: normal;
 }
-.fiveImg {
+.fiveconteiner img {
   width: 1175px;
   height: 443px;
 }
 @media screen and (max-width: 1200px) {
-  .fiveImg {
+  .fiveconteiner img {
     width: 800px;
     height: 330px;
   }
 }
 @media screen and (max-width: 800px) {
-  .fiveImg {
+  .fiveconteiner img {
     width: 400px;
     height: 135px;
   }
 }
-.footerEnd {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  background: #fff;
-  /* Display flex */
-  display: flex;
-  justify-content: space-between;
+
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
 }
-.endLink {
-  /* Display Flex */
-  display: flex;
-  gap: 2rem;
-}
-@media screen and (max-width: 900px) {
-  .endLink {
-    display: none;
-  }
-}
-.textStyle {
-  color: #222;
-  font-family: Open Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-  text-decoration-line: none;
-}
+
+body {
+  width: auto;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */

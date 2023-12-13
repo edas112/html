@@ -1,0 +1,143 @@
+.navbar-brand {
+  color: #878b9b;
+  font-family: Roboto Condensed;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.navbar-brand:hover {
+  color: #43c45f;
+}
+.navbar .navbar-toggler {
+  border: none;
+}
+.navbar .nav-link {
+  margin-left: 37px;
+  color: #404445;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navbar .nav-link:hover {
+  color: #43c45f;
+}
+.navbar .nav-link.active {
+  color: #43c45f;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+@media only screen and (max-width: 992px) {
+  .navbar .navbar-nav {
+    text-align: center;
+  }
+}
+
+.card {
+  height: 800px;
+}
+.card .card-img {
+  height: 800px;
+}
+.card h5 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 70px;
+}
+.card p {
+  color: #d5d7d8;
+  font-family: Roboto;
+  font-size: 26px;
+}
+
+.container .item {
+  padding-bottom: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  .container .item {
+    text-align: center;
+  }
+}
+.container h1 {
+  color: #404445;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+}
+.container h3 {
+  color: #5f6b81;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+}
+.container img {
+  width: 343px;
+  height: 185px;
+}
+@media only screen and (min-width: 768px) {
+  .container img {
+    width: 648px;
+    height: 350px;
+  }
+}
+.container .item-img {
+  display: flex;
+  justify-content: center;
+}
+
+.second-container {
+  position: relative;
+  background: #f1f8ff;
+}
+.second-container h1 {
+  color: #404445;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+}
+.second-container h3 {
+  color: #5f6b81;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+}
+.second-container img {
+  width: 343px;
+  height: 217px;
+}
+.second-container svg {
+  position: absolute;
+  top: 25rem;
+}
+
+body {
+  display: grid;
+}
+
+.three-container line {
+  border: #d8d8d8 solit 1px;
+  width: 343px;
+}
+.three-container h1 {
+  color: #404445;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.188%; /* 27.981px */
+}
+.three-container h3 {
+  color: #404445;
+  font-family: Roboto;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127.188%; /* 43.244px */
+}/*# sourceMappingURL=style.css.map */

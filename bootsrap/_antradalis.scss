@@ -1,0 +1,40 @@
+// ANTRA DALIS
+
+.container {
+  .item {
+    padding-bottom: 2rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .item {
+      text-align: center;
+    }
+  }
+
+  h1 {
+    color: #404445;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+  }
+
+  h3 {
+    color: #5f6b81;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+  }
+  img {
+    width: 343px;
+    height: 185px;
+  }
+  @media only screen and (min-width: 768px) {
+    img {
+      width: 648px;
+      height: 350px;
+    }
+  }
+  .item-img {
+    display: flex;
+    justify-content: center;
+  }
+}

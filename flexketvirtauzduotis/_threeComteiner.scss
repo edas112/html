@@ -1,0 +1,39 @@
+/* KETVIRTA DALIS */
+
+.threeConteiner {
+  padding: 3rem 5rem;
+  height: auto;
+  background: rgba(235, 87, 87, 0.1);
+}
+.threeH1 {
+  color: #222;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.threeH3 {
+  color: #222;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.imgGrid {
+  padding: 2rem;
+  /* display flex */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.threeImg {
+  width: 248px;
+  height: 248px;
+}

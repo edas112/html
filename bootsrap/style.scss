@@ -2,32 +2,9 @@
 @import "./pirmadalis";
 @import "./antradalis";
 @import "./treciadalis";
+@import "./ketvirtadalis";
+@import "./penktadalis";
 
 body {
   display: grid;
-}
-
-//   KETVIRTA DALIS
-
-.three-container {
-  .line {
-    border: #d8d8d8 solid 1px;
-    width: 343px;
-  }
-  h1 {
-    color: #404445;
-    font-family: Roboto;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 127.188%; /* 27.981px */
-  }
-  h3 {
-    color: #404445;
-    font-family: Roboto;
-    font-size: 34px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 127.188%; /* 43.244px */
-  }
 }

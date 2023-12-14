@@ -1,0 +1,39 @@
+//   KETVIRTA DALIS
+
+.three-container {
+  .line {
+    border: #d8d8d8 solid 1px;
+    width: 343px;
+  }
+  @media only screen and (min-width: 768px) {
+    .line {
+      width: 720px;
+    }
+  }
+  @media only screen and (min-width: 1400px) {
+    .line {
+      width: 1320px;
+    }
+  }
+  h1 {
+    color: #404445;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.188%; /* 27.981px */
+  }
+  p {
+    color: #404445;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127.188%; /* 43.244px */
+  }
+  @media only screen and (min-width: 768px) {
+    p {
+      font-size: 40px;
+    }
+  }
+}

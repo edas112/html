@@ -1,3 +1,6 @@
+.navbar {
+  height: 80px;
+}
 .navbar-brand {
   color: #878b9b;
   font-family: Roboto Condensed;
@@ -38,21 +41,37 @@
   }
 }
 
-.card {
-  height: 800px;
+header {
+  height: 720px;
+  background: linear-gradient(rgba(98, 100, 113, 0.5), rgba(98, 100, 113, 0.5)), url(./9d99a8d7c366a4c2e2c811425efa2919.jpg) top center no-repeat;
+  background-size: cover;
 }
-.card .card-img {
-  height: 800px;
+header .container {
+  height: 100%;
 }
-.card h5 {
+header .row {
+  height: 100%;
+}
+header h5 {
   color: #fff;
   font-family: Roboto;
   font-size: 70px;
 }
-.card p {
+@media only screen and (max-width: 768px) {
+  header h5 {
+    font-size: 54px;
+  }
+}
+header p {
   color: #d5d7d8;
   font-family: Roboto;
   font-size: 26px;
+}
+header .btn {
+  width: 191px;
+  height: 47px;
+  border-radius: 5px;
+  background: #43c45f;
 }
 
 .container .item {
@@ -68,6 +87,7 @@
   font-family: Roboto;
   font-size: 22px;
   font-style: normal;
+  padding-top: 1rem;
 }
 .container h3 {
   color: #5f6b81;
@@ -108,22 +128,41 @@
   font-size: 18px;
   font-style: normal;
 }
-.second-container img {
+.second-container .img {
+  background: url(./dacb50dbcc9e81ae46213bf6b912d150.jpg);
+  background-size: cover;
   width: 343px;
   height: 217px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.second-container svg {
-  position: absolute;
-  top: 25rem;
+@media only screen and (min-width: 768px) {
+  .second-container .img {
+    width: 720px;
+    height: 416px;
+  }
 }
-
-body {
-  display: grid;
+@media only screen and (min-width: 1400px) {
+  .second-container .img {
+    width: 872px;
+    height: 483px;
+  }
 }
 
 .three-container .line {
   border: #d8d8d8 solid 1px;
   width: 343px;
+}
+@media only screen and (min-width: 768px) {
+  .three-container .line {
+    width: 720px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .three-container .line {
+    width: 1320px;
+  }
 }
 .three-container h1 {
   color: #404445;
@@ -133,11 +172,73 @@ body {
   font-weight: 400;
   line-height: 127.188%; /* 27.981px */
 }
-.three-container h3 {
+.three-container p {
   color: #404445;
   font-family: Roboto;
   font-size: 34px;
   font-style: normal;
   font-weight: 500;
   line-height: 127.188%; /* 43.244px */
+}
+@media only screen and (min-width: 768px) {
+  .three-container p {
+    font-size: 40px;
+  }
+}
+
+.five {
+  background: #f1f8ff;
+}
+.five h1 {
+  color: #404445;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.five h2 {
+  padding-top: 2rem;
+  color: #404445;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .five h2 {
+    text-align: left;
+  }
+}
+.five p {
+  padding-bottom: 2rem;
+  color: #5f6b81;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .five p {
+    text-align: left;
+  }
+}
+.five img {
+  width: 343px;
+  height: 262px;
+}
+@media only screen and (min-width: 1400px) {
+  .five img {
+    width: 424px;
+    height: 262px;
+  }
+}
+
+body {
+  display: grid;
 }/*# sourceMappingURL=style.css.map */

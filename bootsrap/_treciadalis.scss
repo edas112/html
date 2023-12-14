@@ -18,12 +18,25 @@
     font-style: normal;
   }
 
-  img {
+  .img {
+    background: url(./dacb50dbcc9e81ae46213bf6b912d150.jpg);
+    background-size: cover;
     width: 343px;
     height: 217px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  svg {
-    position: absolute;
-    top: 25rem;
+  @media only screen and (min-width: 768px) {
+    .img {
+      width: 720px;
+      height: 416px;
+    }
+  }
+  @media only screen and (min-width: 1400px) {
+    .img {
+      width: 872px;
+      height: 483px;
+    }
   }
 }

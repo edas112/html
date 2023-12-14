@@ -1,9 +1,15 @@
 // PIRMA DALIS
 
-.card {
-  height: 800px;
-  .card-img {
-    height: 800px;
+header {
+  height: 720px;
+  background: linear-gradient(rgba(98, 100, 113, 0.5), rgba(98, 100, 113, 0.5)),
+    url(./9d99a8d7c366a4c2e2c811425efa2919.jpg) top center no-repeat;
+  background-size: cover;
+  .container {
+    height: 100%;
+  }
+  .row {
+    height: 100%;
   }
   h5 {
     color: #fff;
@@ -11,10 +17,21 @@
     font-family: Roboto;
     font-size: 70px;
   }
+  @media only screen and (max-width: 768px) {
+    h5 {
+      font-size: 54px;
+    }
+  }
   p {
     color: #d5d7d8;
 
     font-family: Roboto;
     font-size: 26px;
+  }
+  .btn {
+    width: 191px;
+    height: 47px;
+    border-radius: 5px;
+    background: #43c45f;
   }
 }

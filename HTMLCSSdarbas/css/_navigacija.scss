@@ -1,0 +1,45 @@
+// NAVIGACIJA
+
+.navbar {
+  position: relative;
+  .navbar-brand {
+    color: var(--Coffee-black-100, #32292f);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .nav-link {
+    color: var(--Coffee-black-100, #32292f);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-left: 35px;
+  }
+  .active {
+    color: var(--Coffee-black-100, #32292f);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+  }
+  .text-line {
+    margin-left: 42px;
+    top: 26px;
+    position: absolute;
+  }
+
+  .svg {
+    padding-top: 6px;
+    width: 24px;
+    height: 24px;
+  }
+}

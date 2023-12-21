@@ -1,0 +1,65 @@
+// KETVIRTA DALIS
+
+.four-container {
+  margin-top: 76px;
+
+  height: 168px;
+  border-top: #d6d4d5 solid 1px;
+  border-bottom: #d6d4d5 solid 1px;
+  //   DISPLAY FLEX
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  @media only screen and (max-width: 1000px) {
+    height: 395px;
+    // DISPLAY FLEX
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    padding-top: 31px;
+    color: var(--Coffee-black-100, #32292f);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  a {
+    padding-top: 40px;
+    color: var(--Coffee-black-100, #32292f);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration-line: none;
+
+    @media only screen and (max-width: 1000px) {
+      padding-top: 5px;
+    }
+  }
+  h2 {
+    position: relative;
+    padding-top: 40px;
+    color: var(--Coffee-black-100, #32292f);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    width: 176px;
+    text-align: left;
+    @media only screen and (max-width: 1000px) {
+      padding-bottom: 40px;
+    }
+  }
+  .h2-display-none {
+    @media only screen and (max-width: 1000px) {
+      display: none;
+    }
+  }
+}

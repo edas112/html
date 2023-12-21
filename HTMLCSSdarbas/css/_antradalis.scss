@@ -1,0 +1,98 @@
+// ANTRA DALIS
+
+.second-container {
+  margin-bottom: 51px;
+  column-gap: 104px;
+  row-gap: 24px;
+
+  h1 {
+    margin-top: 85px;
+    margin-bottom: 55px;
+    color: var(--Coffee-black-100, #32292f);
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 48px;
+    @media only screen and (max-width: 375px) {
+      font-size: 32px;
+    }
+  }
+  .first-second {
+    gap: 24px;
+    margin-bottom: 104px;
+    // DISPLAY FLEX
+    display: flex;
+    flex-direction: row;
+    @media only screen and (max-width: 1400px) {
+      // DISPLAY FLEX
+      flex-direction: column-reverse;
+    }
+  }
+  .first-item {
+    width: 628px;
+    height: 424px;
+    // DISPLAY FLEX
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: 768px) {
+      width: 327px;
+      height: 221px;
+    }
+
+    .text {
+      width: 410px;
+      text-align: left;
+      gap: 16px;
+      @media only screen and (max-width: 768px) {
+        width: 327px;
+      }
+    }
+  }
+
+  .four-item {
+    width: 628px;
+    height: 424px;
+    // DISPLAY FLEX
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (max-width: 768px) {
+      width: 327px;
+      height: 221px;
+      margin-left: 10px;
+    }
+    .text {
+      width: 410px;
+      text-align: left;
+      gap: 16px;
+    }
+  }
+  button {
+    background: #fff;
+    border: 1px solid var(--Coffee-black-100, #32292f);
+    padding: 12px 24px;
+    gap: 10px;
+    // DISPLAY FLEX
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+      width: 327px;
+    }
+  }
+
+  img {
+    width: 628px;
+    height: 424px;
+    @media only screen and (max-width: 768px) {
+      width: 327px;
+      height: 221px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+// TRECIA DALIS
+
+.three-container {
+  position: relative;
+  margin-left: 0;
+  padding-left: 0;
+
+  .item-display-none {
+    padding-top: 45px;
+    width: 263px;
+    height: 1705px;
+    background: var(--Coffee-black-5, #f6f4f5);
+    @media only screen and (min-width: 376px) {
+      display: none;
+    }
+  }
+
+  h1 {
+    margin-top: 54px;
+    margin-bottom: 48px;
+    color: var(--Coffee-black-100, #32292f);
+    text-align: left;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    @media only screen and (min-width: 376px) {
+      margin-top: 176px;
+    }
+  }
+  h2 {
+    margin-bottom: 64px;
+    color: var(--Coffee-black-100, #32292f);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+  }
+  img {
+    text-align: center;
+
+    @media only screen and (max-width: 768px) {
+      width: 327px;
+      height: 277px;
+    }
+  }
+  .item-absoliute {
+    position: absolute;
+
+    @media only screen and (min-width: 376px) {
+      position: relative;
+    }
+  }
+}

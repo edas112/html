@@ -1,0 +1,30 @@
+// IMPORT
+@import "./navigacija";
+@import "./pirmadalis";
+@import "./antradalis";
+@import "./treciadalis";
+@import "./ketvirtadalis";
+
+// BODY STYLE
+* {
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background: #fff;
+  width: auto;
+  height: auto;
+}
+
+// PABAIGA
+
+.end-text {
+  margin-top: 16.18px;
+  color: var(--Coffee-black-100, #32292f);
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+}
